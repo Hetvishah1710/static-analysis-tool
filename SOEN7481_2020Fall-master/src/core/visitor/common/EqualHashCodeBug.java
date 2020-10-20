@@ -66,14 +66,7 @@ public class EqualHashCodeBug extends ASTVisitor {
 				e.printStackTrace();
 			}
 		}
-		else {
-			String str = "<classname>" + className + "</classname>" + " has both methods defined";
-			try {
-				HelperClass.fileAppendMethod(fileName, str);
-			} catch (IOException e) {
-				e.printStackTrace();
-			}
-		}
+		
 	return true;
 }
 }
